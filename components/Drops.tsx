@@ -1,4 +1,4 @@
-const BASE = '/ix-originals'
+const BASE = ''
 
 const drops = [
   {

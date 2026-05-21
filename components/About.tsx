@@ -8,7 +8,7 @@ export default function About() {
             <div className="aboutVisualIx">IX</div>
             <div className="aboutVisualText">
               Portfolio dropping soon —<br />
-              follow <strong style={{ color: 'var(--gold)' }}>@ixoriginals</strong><br />
+              follow <strong style={{ color: 'var(--gold)' }}>@ixoriginals.sg</strong><br />
               to be first in line
             </div>
             <div className="aboutVisualBadge">IX Originals · Est. 2026</div>

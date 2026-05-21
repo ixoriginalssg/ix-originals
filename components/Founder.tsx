@@ -7,7 +7,7 @@ export default function Founder() {
           <div className="founderPhoto fadeUp">
             <div className="founderPhotoInner">
               <img
-                src="/ix-originals/images/founder-xuan.jpg"
+                src="/images/founder-xuan.jpg"
                 alt="Xuan, founder of IX Originals"
                 style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 20%', display: 'block' }}
               />

@@ -1,4 +1,4 @@
-const BASE = '/ix-originals'
+const BASE = ''
 
 const works = [
   { image: '/images/drop-001-mew.jpg', alt: 'Mew binder — Ace tier' },

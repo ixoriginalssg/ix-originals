@@ -9,7 +9,7 @@ export default function Founder() {
               <img
                 src="/images/founder-xuan.jpg"
                 alt="Xuan, founder of IX Originals"
-                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 20%', display: 'block' }}
+                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 40%', display: 'block' }}
               />
             </div>
           </div>

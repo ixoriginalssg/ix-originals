@@ -4,6 +4,10 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'IX Originals — Hand-Painted Binders · Singapore',
   description: 'Custom hand painted Pokémon art on your TCG binders. One of one commissions based in Singapore.',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/icon.png',
+  },
   openGraph: {
     title: 'IX Originals',
     description: 'Your binder\'s glow-up starts here. Hand painted Pokémon art, Singapore.',

@@ -33,16 +33,15 @@ const pricingTable = [
   {
     category: 'Sleeve',
     items: [
-      { name: '4 Pocket', t1: 70, t2: 80, t3: 120, t4: 160 },
-      { name: '9 Pocket', t1: 90, t2: 100, t3: 140, t4: 180 },
-      { name: '12 Pocket', t1: 100, t2: 110, t3: 150, t4: 190 },
+      { name: '4 Pocket', t1: 75, t2: 85, t3: 140, t4: 280 },
+      { name: '9 Pocket', t1: 95, t2: 105, t3: 160, t4: 320 },
     ],
   },
   {
     category: 'Toploader',
     items: [
-      { name: '4 Pocket', t1: 80, t2: 90, t3: 130, t4: 170 },
-      { name: '9 Pocket', t1: 110, t2: 120, t3: 160, t4: 200 },
+      { name: '4 Pocket', t1: 85, t2: 95, t3: 150, t4: 290 },
+      { name: '9 Pocket', t1: 115, t2: 125, t3: 180, t4: 340 },
     ],
   },
 ]

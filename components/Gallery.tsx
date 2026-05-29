@@ -1,9 +1,9 @@
 const BASE = ''
 
 const works = [
-  { image: '/images/drop-001-mew.jpg', alt: 'Mew binder — Ace tier' },
-  { image: null, alt: '' },
-  { image: null, alt: '' },
+  { image: '/images/drop-001-mew.jpg', alt: 'Mew — Ace tier, 4 Pocket' },
+  { image: '/images/drop-002-derpizard.jpg', alt: 'Derpizard — Starter tier, 4 Pocket' },
+  { image: '/images/drop-003-umbreon.jpg', alt: 'Umbreon — Ace tier, 4 Pocket' },
 ]
 
 export default function Gallery() {

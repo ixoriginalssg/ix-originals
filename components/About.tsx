@@ -8,7 +8,7 @@ export default function About() {
             <div className="aboutVisualIx">IX</div>
             <div className="aboutVisualText">
               Portfolio dropping soon —<br />
-              follow <strong style={{ color: 'var(--gold)' }}>@ixoriginals.sg</strong><br />
+              follow <strong style={{ color: 'var(--gold)' }}>@ixoriginals</strong><br />
               to be first in line
             </div>
             <div className="aboutVisualBadge">IX Originals · Est. 2026</div>
@@ -17,16 +17,16 @@ export default function About() {
           <div>
             <span className="sectionLabel">What&apos;s the deal</span>
             <h2 className="sectionTitle">
-              We paint on binders.<br />
-              <em>Yeah, actually.</em>
+              I paint on binders.<br />
+              <em>Yeah, actually :p</em>
             </h2>
             <p className="sectionBody">
-              IX Originals is a solo operation turning plain TCG binders into pieces
+              IX Originals is my solo venture turning plain TCG binders into pieces
               people stop and stare at. Every design is hand painted. If you can dream it
               (and it&apos;s a Pokémon), let&apos;s make it happen together!
             </p>
             <p className="sectionBody" style={{ marginTop: '1rem' }}>
-              Bring the flex to your next locals.
+              Bring the flex to your trade show or as a gift to your friends!
             </p>
 
             <div className="aboutStats fadeUp" data-delay="200">

@@ -7,17 +7,17 @@ const steps = [
   {
     num: 'II',
     title: 'Lock it in',
-    desc: "We'll hit you with a quote in 2 days. 50% deposit gets you in the queue. Slots fill up fast.",
+    desc: "I'll provide a quote in 2 days. Leave a 50% deposit upfront, and only pay the rest after the work is done!",
   },
   {
     num: 'III',
     title: 'Sneak peek',
-    desc: 'We send a WIP sketch before the final coat. Got notes? 2 free revision rounds included.',
+    desc: "I'll send WIP pictures before the final coat.",
   },
   {
     num: 'IV',
-    title: 'Come get it',
-    desc: 'Pay the balance, then collect in person somewhere in SG or get it shipped to your door.',
+    title: 'Collect the goods',
+    desc: 'Pay the balance, then collect in person or get it shipped to your door.',
   },
 ]
 

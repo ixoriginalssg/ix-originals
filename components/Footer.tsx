@@ -10,8 +10,8 @@ export default function Footer() {
         </div>
 
         <div className="footerLinks">
-          <a href="https://instagram.com/ixoriginals.sg" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://carousell.com" target="_blank" rel="noopener noreferrer">Carousell</a>
+          <a href="https://instagram.com/ixoriginals" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://carousell.com/ixoriginals/" target="_blank" rel="noopener noreferrer">Carousell</a>
           <Link href="#order">Commission</Link>
           <Link href="#faq">FAQ</Link>
         </div>

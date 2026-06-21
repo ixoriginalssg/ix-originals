@@ -29,6 +29,8 @@ const tiers = [
   },
 ]
 
+// TEMP: pricing table data hidden along with the table markup below. Uncomment to restore.
+/*
 const pricingTable = [
   {
     category: 'Sleeve',
@@ -45,6 +47,7 @@ const pricingTable = [
     ],
   },
 ]
+*/
 
 const addons = [
   { name: 'Additional Pokémon (Starter / Trainer)', price: '+S$10 to 20 each' },
@@ -83,6 +86,9 @@ export default function Tiers() {
           ))}
         </div>
 
+        {/* TEMP: pricing table hidden. To restore, delete this line and the closing line below,
+            and uncomment the `pricingTable` data array near the top of this file. */}
+        {/*
         <div className="pricingTable fadeUp">
           <table className="priceGrid">
             <thead>
@@ -114,6 +120,7 @@ export default function Tiers() {
             </tbody>
           </table>
         </div>
+        */}
 
         <div className="pricingNote fadeUp">
           <h3 className="pricingNoteTitle">What affects the final price?</h3>

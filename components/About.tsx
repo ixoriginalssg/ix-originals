@@ -5,13 +5,12 @@ export default function About() {
         <div className="aboutInner">
 
           <div className="aboutVisual fadeUp" data-delay="0">
-            <div className="aboutVisualIx">IX</div>
-            <div className="aboutVisualText">
-              Portfolio dropping soon —<br />
-              follow <strong style={{ color: 'var(--gold)' }}>@ixoriginals</strong><br />
-              to be first in line
-            </div>
-            <div className="aboutVisualBadge">IX Originals · Est. 2026</div>
+            <img
+              src="/images/AboutPic.jpg"
+              alt="Hand-painted Mega Charizard binder beside the paints it was made with"
+              style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', position: 'absolute', inset: 0 }}
+            />
+            <div className="aboutVisualBadge" style={{ background: 'rgba(10,10,20,0.55)' }}>IX Originals · Est. 2026</div>
           </div>
 
           <div>

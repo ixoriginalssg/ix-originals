@@ -1,9 +1,9 @@
 const BASE = ''
 
 const works = [
-  { image: '/images/drop-001-mew.jpg', alt: 'Mew — Ace tier, 4 Pocket' },
-  { image: '/images/drop-002-derpizard.jpg', alt: 'Derpizard — Starter tier, 4 Pocket' },
-  { image: '/images/drop-003-umbreon.jpg', alt: 'Umbreon — Ace tier, 4 Pocket' },
+  { image: '/images/drop-004-phantasmalCharizard.jpg', alt: 'Mega Charizard X and Y battle scene with the Charmander evolution line, hand painted on a binder' },
+  { image: '/images/commission-001-GengarEvoLine.jpg', alt: 'Gengar evolution line — Gastly, Haunter and Gengar — hand painted on a purple binder' },
+  { image: '/images/commission-002-PlusleMinun.jpg', alt: 'Plusle and Minun hand painted on a yellow binder' },
 ]
 
 export default function Gallery() {

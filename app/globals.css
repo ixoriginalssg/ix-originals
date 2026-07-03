@@ -228,12 +228,10 @@ body {
 /* ── GALLERY ── */
 .gallerySection { background: var(--bg2); border-top: 1px solid var(--border); padding: 6rem 2rem; }
 .galleryGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 3rem; border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
-.galleryCell { aspect-ratio: 3/4; background: var(--bg3); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; transition: background 0.3s, box-shadow 0.3s; }
-.galleryCell:hover { background: #111120; box-shadow: inset 0 0 0 1px var(--border-gold); }
-.galleryCell img { transition: transform 0.55s ease; }
-.galleryCell:hover img { transform: scale(1.06); }
-.galleryCell::after { content: ''; position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(to top, rgba(0,0,0,0.4), transparent 55%); opacity: 0; transition: opacity 0.4s ease; }
-.galleryCell:hover::after { opacity: 1; }
+.galleryCell { aspect-ratio: 3/4; background: var(--bg3); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; transition: background 0.3s; }
+.galleryCell:hover { background: #111120; }
+.galleryCell::after { content: ''; position: absolute; inset: 0; z-index: 2; pointer-events: none; border: 2px solid transparent; background: rgba(10,10,20,0); transition: border-color 0.35s ease, background-color 0.35s ease; }
+.galleryCell:hover::after { border-color: var(--gold); background: rgba(10,10,20,0.22); }
 .galleryCell::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(78,205,196,0.06) 0%, rgba(167,139,250,0.06) 50%, rgba(201,162,82,0.06) 100%); }
 .galleryComing { position: relative; text-align: center; font-size: 12px; color: var(--muted); opacity: 0.45; letter-spacing: 0.08em; text-transform: uppercase; }
 

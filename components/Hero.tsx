@@ -14,9 +14,9 @@ export default function Hero() {
         <div className="heroRule" />
       </div>
 
-      <h2 className="heroTagline">Your binder&apos;s glow-up starts here.</h2>
+      <h2 className="heroTagline">Made by hand, just for you.</h2>
       <p className="heroSub">
-        Hand painted Pokémon art on your binder. Fully customisable, fully personalised and uniquely yours.
+        Hand painted art on your binder • ᴗ &lt;  Customisable, Personalised and uniquely yours
       </p>
 
       <div className="heroActions">

@@ -17,15 +17,15 @@ export default function About() {
             <span className="sectionLabel">What&apos;s the deal</span>
             <h2 className="sectionTitle">
               I paint on binders.<br />
-              <em>Yeah, actually :p</em>
+              <em>And I love it :)</em>
             </h2>
             <p className="sectionBody">
               IX Originals is my solo venture turning plain TCG binders into pieces
-              people stop and stare at. Every design is hand painted. If you can dream it
-              (and it&apos;s a Pokémon), let&apos;s make it happen together!
+              people stop and stare at. Every design is hand painted. If you can dream it,
+              let&apos;s make it happen together!
             </p>
             <p className="sectionBody" style={{ marginTop: '1rem' }}>
-              Bring the flex to your trade show or as a gift to your friends!
+              Bring the flex to your trade show or as a gift to your friends! ( • ᴗ - ) ✧
             </p>
 
             <div className="aboutStats fadeUp" data-delay="200">

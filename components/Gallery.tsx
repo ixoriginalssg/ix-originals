@@ -33,7 +33,7 @@ export default function Gallery() {
           <a href="https://instagram.com/ixoriginals" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)', textDecoration: 'none' }}>
             @ixoriginals
           </a>{' '}
-          on Instagram. That&apos;s where the good stuff gets posted first.
+          on Instagram to get the latest updates on drops
         </p>
       </div>
     </section>

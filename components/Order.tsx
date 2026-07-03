@@ -14,14 +14,14 @@ export default function Order() {
           <div className="orderCardIx">IX</div>
           <h3 className="orderTitle">Fill in the form here!</h3>
           <p className="orderDesc">
-            Binder model and size, desired Pokémon, and any refs you love.
-            We&apos;ll get back to you within 2 working days with a quote.
+            Binder model and size, desired Pokémon or art, and any refs you love.
+            I&apos;ll get back to you ASAP with a quote.
             No commitment until you&apos;re happy with the price.
           </p>
           <a href={FORM_URL} target="_blank" rel="noopener noreferrer" className="orderBtn">
             Open the form
           </a>
-          <p className="orderNote">Slots are limited · 2 free revisions · 50% deposit to lock in</p>
+          <p className="orderNote">Slots are limited · 50% deposit to lock in</p>
         </div>
       </div>
     </section>

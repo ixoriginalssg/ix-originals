@@ -2,12 +2,12 @@ const steps = [
   {
     num: 'I',
     title: 'Fill the form',
-    desc: 'Tell us your binder model, which Pokémon you want, and any inspo pics. The more detail, the better.',
+    desc: 'Tell me about your vision, your binder model, and attach reference picture(s). The more detail, the better.',
   },
   {
     num: 'II',
     title: 'Lock it in',
-    desc: "I'll provide a quote in 2 days. Leave a 50% deposit upfront, and only pay the rest after the work is done!",
+    desc: "I'll provide a quote ASAP. Leave a 50% deposit upfront, and only pay the rest after the work is done!",
   },
   {
     num: 'III',

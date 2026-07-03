@@ -87,7 +87,7 @@ export default function Tiers() {
               <span className="pricingNoteIcon">02</span>
               <div>
                 <div className="pricingNoteHead">Binder source</div>
-                <div className="pricingNoteBody">Bringing your own binder takes S$10–15 off, as long as the surface is paintable. If you need me to source one, that cost is added on top.</div>
+                <div className="pricingNoteBody">The price already includes a standard binder. Bring your own and take S$10–15 off, as long as it&apos;s paintable. Only a premium or special-request binder that costs more than the standard adds anything on top.</div>
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@ const drops = [
     name: 'Drop 001',
     pokemon: 'Mew',
     binder: '4 Pocket',
-    binderType: 'Ace',
+    binderType: 'Trainer',
     price: 'S$140',
     status: 'available',
     image: '/images/drop-001-mew.jpg',
@@ -15,15 +15,15 @@ const drops = [
     pokemon: 'Derpizard',
     binder: '4 Pocket',
     binderType: 'Starter',
-    price: 'S$75',
-    status: 'available',
+    price: '',
+    status: 'sold',
     image: '/images/drop-002-derpizard.jpg',
   },
   {
     name: 'Drop 003',
     pokemon: 'Umbreon',
     binder: '4 Pocket',
-    binderType: 'Ace',
+    binderType: 'Trainer',
     price: 'S$140',
     status: 'available',
     image: '/images/drop-003-umbreon.jpg',
@@ -33,8 +33,8 @@ const drops = [
     pokemon: '',
     binder: '9 Pocket',
     binderType: '',
-    price: 'S$95',
-    status: 'available',
+    price: '',
+    status: 'upcoming',
     image: null,
   },
   {
@@ -42,8 +42,8 @@ const drops = [
     pokemon: '',
     binder: '4 Pocket Toploader',
     binderType: '',
-    price: 'S$85',
-    status: 'available',
+    price: '',
+    status: 'upcoming',
     image: null,
   },
   {
@@ -51,8 +51,8 @@ const drops = [
     pokemon: '',
     binder: '9 Pocket Toploader',
     binderType: '',
-    price: 'S$115',
-    status: 'available',
+    price: '',
+    status: 'upcoming',
     image: null,
   },
   {
@@ -60,11 +60,14 @@ const drops = [
     pokemon: '',
     binder: '9 Pocket',
     binderType: '',
-    price: 'S$95',
-    status: 'available',
+    price: '',
+    status: 'upcoming',
     image: null,
   },
 ]
+
+const statusLabel: Record<string, string> = { available: 'Available', sold: 'Sold', upcoming: 'Upcoming' }
+const statusClass: Record<string, string> = { available: 'dropBadgeAvailable', sold: 'dropBadgeSold', upcoming: 'dropBadgeUpcoming' }
 
 export default function Drops() {
   return (
@@ -99,8 +102,8 @@ export default function Drops() {
                     </div>
                 }
                 <div className="dropBadgeStack">
-                  <div className={`dropBadge ${drop.status === 'sold' ? 'dropBadgeSold' : 'dropBadgeAvailable'}`}>
-                    {drop.status === 'sold' ? 'Sold' : 'Available'}
+                  <div className={`dropBadge ${statusClass[drop.status] || 'dropBadgeAvailable'}`}>
+                    {statusLabel[drop.status] || 'Available'}
                   </div>
                   {drop.binderType && (
                     <div className="dropTierBadge">{drop.binderType}</div>
@@ -113,7 +116,7 @@ export default function Drops() {
                 </div>
                 <div className="dropMeta">
                   <span className="dropType">{drop.binder}</span>
-                  <span className="dropPrice">{drop.price}</span>
+                  {drop.price && <span className="dropPrice">{drop.price}</span>}
                 </div>
               </div>
             </div>

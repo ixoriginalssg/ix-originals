@@ -19,6 +19,8 @@ export default function Home() {
       <main>
         <Hero />
         <div className="holoRule" />
+        <Gallery />
+        <div className="holoRule" />
         <About />
         <div className="holoRule" />
         <Founder />
@@ -30,7 +32,6 @@ export default function Home() {
         <Drops />
         <div className="holoRule" />
         <Order />
-        <Gallery />
         <FAQ />
         <div className="holoRule" />
       </main>

@@ -50,7 +50,7 @@ export default function Tiers() {
             <h2 className="sectionTitle">Pick your tier</h2>
           </div>
           <p className="tiersNote">
-            Prices are in SGD and these are starting points — your final quote depends on complexity and the reference you send over. Got your own binder? Knock S$10–15 off any tier. DM to confirm the details before ordering.
+            Prices are in SGD and these are starting points. Your final quote depends on complexity and the reference you send over. Got your own binder? Knock S$10–15 off any tier. DM to confirm the details before ordering.
           </p>
         </div>
 

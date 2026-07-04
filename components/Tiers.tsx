@@ -3,7 +3,7 @@ const tiers = [
     num: '01',
     name: 'Starter',
     price: '170',
-    desc: 'One Pokémon, flat background, no fuss. Clean and simple.',
+    desc: 'One Pokémon, flat or single-tone background.',
     eg: '',
     featured: false,
   },
@@ -11,7 +11,7 @@ const tiers = [
     num: '02',
     name: 'Trainer',
     price: '200',
-    desc: 'One Pokémon with a proper rendered background — gradient, sky, or a light scene.',
+    desc: 'One Pokémon with a proper rendered background (gradient, sky, or a light scene).',
     eg: '',
     featured: false,
   },
@@ -19,8 +19,8 @@ const tiers = [
     num: '03',
     name: 'Ace',
     price: '260',
-    desc: 'Two to three Pokémon, and/or a detailed background, and/or added effects. The works.',
-    eg: 'e.g. Charizard, Mewtwo, Rayquaza',
+    desc: 'Two to three Pokémon, and/or a detailed background, and/or added effects.',
+    eg: '',
     featured: true,
   },
   {
@@ -50,7 +50,7 @@ export default function Tiers() {
             <h2 className="sectionTitle">Pick your tier</h2>
           </div>
           <p className="tiersNote">
-            All prices in SGD and are starting points — final quote depends on complexity and your reference. Bringing your own binder takes a little off. DM to confirm before ordering.
+            All prices in SGD and are starting points — final quote depends on complexity and your reference. Got your own binder? Take S$10–15 off any tier. DM to confirm before ordering.
           </p>
         </div>
 

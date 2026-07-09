@@ -16,16 +16,15 @@ export default function About() {
           <div>
             <span className="sectionLabel">What&apos;s the deal</span>
             <h2 className="sectionTitle">
-              I paint on binders.<br />
-              <em>And I love it :)</em>
+              Your collection is one of one.<br />
+              <em>Your binder should be too.</em>
             </h2>
             <p className="sectionBody">
-              IX Originals is my solo venture turning plain TCG binders into pieces
-              people stop and stare at. Every design is hand painted. If you can dream it,
-              let&apos;s make it happen together!
+              I hand-paint one-of-one binders for collectors who want their favourite cards kept
+              in something made just for them; a piece that&apos;s as personal as the collection inside.
             </p>
             <p className="sectionBody" style={{ marginTop: '1rem' }}>
-              Bring the flex to your trade show or as a gift to your friends! ( • ᴗ - ) ✧
+              Bring the flex to your next tournament or trade show! ( • ᴗ - ) ✧
             </p>
 
             <div className="aboutStats fadeUp" data-delay="200">

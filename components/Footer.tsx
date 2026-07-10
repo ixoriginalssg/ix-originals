@@ -12,8 +12,9 @@ export default function Footer() {
         <div className="footerLinks">
           <a href="https://instagram.com/ixoriginals" target="_blank" rel="noopener noreferrer">Instagram</a>
           <a href="https://carousell.com/ixoriginals/" target="_blank" rel="noopener noreferrer">Carousell</a>
-          <Link href="#order">Commission</Link>
-          <Link href="#faq">FAQ</Link>
+          <Link href="/#order">Commission</Link>
+          <Link href="/#faq">FAQ</Link>
+          <Link href="/terms">Terms</Link>
         </div>
 
         <div className="footerCopy">© 2026 IX Originals</div>

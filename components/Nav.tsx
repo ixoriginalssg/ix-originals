@@ -9,14 +9,14 @@ export default function Nav() {
       </Link>
 
       <div className="navLinks">
-        <Link href="#about">About</Link>
-        <Link href="#tiers">Pricing</Link>
-        <Link href="#drops">Drops</Link>
-        <Link href="#gallery">Gallery</Link>
-        <Link href="#faq">FAQ</Link>
+        <Link href="/#about">About</Link>
+        <Link href="/#tiers">Pricing</Link>
+        <Link href="/#drops">Drops</Link>
+        <Link href="/#gallery">Gallery</Link>
+        <Link href="/#faq">FAQ</Link>
       </div>
 
-      <Link href="#order" className="navCta">Commission</Link>
+      <Link href="/#order" className="navCta">Commission</Link>
     </nav>
   )
 }

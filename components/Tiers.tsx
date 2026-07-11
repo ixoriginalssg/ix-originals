@@ -19,7 +19,7 @@ const tiers = [
     num: '03',
     name: 'Champion',
     price: 'Custom quote',
-    desc: 'Multi-character scenes, full coverage, blended effects. The showpiece tier.',
+    desc: 'Multi-character scenes, full coverage, blended effects. The chase ;)',
     eg: 'e.g. Phantasmal Charizard Chase, Gengar commission',
     featured: false,
   },

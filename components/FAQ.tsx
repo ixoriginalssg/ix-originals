@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     q: "How long does it take?",
-    a: "Typically anywhere from 1 to 3 weeks from when you pay the deposit, depending on complexity and how long the queue is. If you need it quicker for a gift or an occasion, rush orders are available for +20%.",
+    a: "Typically 1 to 3 weeks from when you pay the deposit, depending on complexity and how long the queue is. If you need it faster for a gift or an occasion, rush orders are available for +20%.",
   },
   {
     q: "Do I send my binder or do you sort one out?",

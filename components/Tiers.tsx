@@ -4,7 +4,7 @@ const tiers = [
     name: 'Starter',
     price: 'from S$170',
     desc: 'One or more Pokémon, no background, clean and simple shading.',
-    eg: 'e.g. a solo Charizard on a flat colour',
+    eg: '',
     featured: false,
   },
   {
@@ -12,7 +12,7 @@ const tiers = [
     name: 'Trainer',
     price: 'from S$230',
     desc: 'A background comes in, or the shading gets detailed. Usually one or two Pokémon with a rendered or scenic backdrop.',
-    eg: 'e.g. Umbreon under a full moon, or Mew in a rendered orb',
+    eg: 'e.g. Umbreon under a full moon, "Bubble" Mew',
     featured: true,
   },
   {
@@ -20,7 +20,7 @@ const tiers = [
     name: 'Champion',
     price: 'Custom quote',
     desc: 'Multi-character scenes, full coverage, blended effects. The showpiece tier.',
-    eg: 'e.g. a full Charizard vs Charizard battle scene',
+    eg: 'e.g. Phantasmal Charizard Chase, Gengar commission',
     featured: false,
   },
 ]

@@ -202,7 +202,7 @@ body {
 .tierCardFeatured::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--teal), var(--lavender), var(--coral)); }
 .tierBadge { font-size: 9px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--teal); border: 1px solid rgba(78,205,196,0.3); padding: 3px 10px; border-radius: 20px; display: inline-block; margin-bottom: 1.25rem; }
 .tierName { font-family: var(--heading); font-size: 22px; font-weight: 700; color: var(--text); margin-bottom: 0.25rem; }
-.tierPrice { font-size: 36px; font-weight: 300; color: var(--gold); margin: 0.75rem 0; font-family: var(--heading); }
+.tierPrice { font-size: 24px; font-weight: 400; color: var(--gold); margin: 0.75rem 0 1rem; font-family: var(--heading); letter-spacing: 0.01em; }
 .tierPrice sup { font-size: 16px; font-weight: 400; vertical-align: super; }
 .tierDesc { font-size: 13px; color: var(--muted); line-height: 1.7; margin-bottom: 0.75rem; }
 .tierEg { font-size: 12px; color: rgba(201,162,82,0.6); }
@@ -230,8 +230,6 @@ body {
 .galleryGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 3rem; border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
 .galleryCell { aspect-ratio: 3/4; background: var(--bg3); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; transition: background 0.3s; }
 .galleryCell:hover { background: #111120; }
-.galleryCell::after { content: ''; position: absolute; inset: 0; z-index: 2; pointer-events: none; border: 2px solid transparent; background: rgba(10,10,20,0); transition: border-color 0.35s ease, background-color 0.35s ease; }
-.galleryCell:hover::after { border-color: var(--gold); background: rgba(10,10,20,0.22); }
 .galleryCell::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(78,205,196,0.06) 0%, rgba(167,139,250,0.06) 50%, rgba(201,162,82,0.06) 100%); }
 .galleryComing { position: relative; text-align: center; font-size: 12px; color: var(--muted); opacity: 0.45; letter-spacing: 0.08em; text-transform: uppercase; }
 
@@ -398,7 +396,7 @@ body {
 }
 
 /* ── TIER CARDS (new 3-tier layout) ── */
-.tierCards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; border: 1px solid var(--border); border-radius: 4px 4px 0 0; overflow: hidden; }
+.tierCards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
 .tierCardNum { font-family: var(--display); font-size: 36px; color: var(--border-gold); letter-spacing: 0.05em; margin-bottom: 0.5rem; transition: color 0.3s; }
 .tierCard:hover .tierCardNum { color: var(--gold); }
 
@@ -436,5 +434,4 @@ body {
 .dropBadge { position: static; }
 .dropBadgeAvailable { background: rgba(78,205,196,0.45); color: #fff; border: 1px solid rgba(78,205,196,0.6); font-weight: 500; }
 .dropBadgeSold { background: rgba(0,0,0,0.45); color: #ccc; border: 1px solid rgba(255,255,255,0.15); }
-.dropBadgeUpcoming { background: rgba(167,139,250,0.4); color: #fff; border: 1px solid rgba(167,139,250,0.6); font-weight: 500; }
 .dropTierBadge { font-size: 9px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; padding: 3px 10px; border-radius: 20px; background: rgba(201,162,82,0.45); color: #fff; border: 1px solid rgba(201,162,82,0.6); }

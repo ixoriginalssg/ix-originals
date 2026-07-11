@@ -2,38 +2,31 @@ const tiers = [
   {
     num: '01',
     name: 'Starter',
-    price: '170',
-    desc: 'One Pokémon, flat or single-tone background.',
-    eg: '',
+    price: 'from S$170',
+    desc: 'One or more Pokémon, no background, clean and simple shading.',
+    eg: 'e.g. a solo Charizard on a flat colour',
     featured: false,
   },
   {
     num: '02',
     name: 'Trainer',
-    price: '200',
-    desc: 'One Pokémon with a proper rendered background (gradient, sky, or a light scene).',
-    eg: '',
-    featured: false,
-  },
-  {
-    num: '03',
-    name: 'Ace',
-    price: '260',
-    desc: 'Two to three Pokémon, and/or a detailed background, and/or added effects.',
-    eg: '',
+    price: 'from S$230',
+    desc: 'A background comes in, or the shading gets detailed. Usually one or two Pokémon with a rendered or scenic backdrop.',
+    eg: 'e.g. Umbreon under a full moon, or Mew in a rendered orb',
     featured: true,
   },
   {
-    num: '04',
+    num: '03',
     name: 'Champion',
-    price: null, // Tier 4 — custom quote (holding $700+ pricing off the public site for now)
-    desc: 'Full multi-character scenes, blended and heavily detailed. The showpiece.',
-    eg: 'e.g. legendary duo scenes',
+    price: 'Custom quote',
+    desc: 'Multi-character scenes, full coverage, blended effects. The showpiece tier.',
+    eg: 'e.g. a full Charizard vs Charizard battle scene',
     featured: false,
   },
 ]
 
 const addons = [
+  { name: 'Additional Pokémon (Starter / Trainer)', price: '+S$10 to 20 each' },
   { name: 'Rush order', price: '+20%' },
   { name: 'Custom name or text', price: '+S$10 to 15' },
   { name: 'Extra revision round', price: '+S$10' },
@@ -50,7 +43,7 @@ export default function Tiers() {
             <h2 className="sectionTitle">Pick your tier</h2>
           </div>
           <p className="tiersNote">
-            Prices are in SGD and these are starting points. Your final quote depends on complexity and the reference you send over. If you have your own binder, get S$10–15 off any tier. DM to confirm the details before ordering.
+            All prices in SGD and include a binder. Each piece is quoted individually by complexity and hours, so these are starting points. DM with your reference for a quote.
           </p>
         </div>
 
@@ -60,13 +53,9 @@ export default function Tiers() {
               key={tier.name}
               className={`tierCard staggerChild${tier.featured ? ' tierCardFeatured' : ''}`}
             >
-              {tier.featured && <div className="tierBadge">Ace</div>}
               <div className="tierCardNum">{tier.num}</div>
               <div className="tierName">{tier.name}</div>
-              {tier.price
-                ? <div className="tierPrice"><sup>from S$</sup>{tier.price}</div>
-                : <div className="tierPrice" style={{ fontSize: '26px', fontWeight: 400 }}>Custom quote</div>
-              }
+              <div className="tierPrice">{tier.price}</div>
               <p className="tierDesc">{tier.desc}</p>
               <p className="tierEg">{tier.eg}</p>
             </div>
@@ -79,19 +68,19 @@ export default function Tiers() {
             <div className="pricingNoteItem">
               <span className="pricingNoteIcon">01</span>
               <div>
-                <div className="pricingNoteHead">Art complexity</div>
-                <div className="pricingNoteBody">A single Pokémon on a flat background sits at the lower end. More Pokémon, detailed backgrounds, or effects move you up the tiers. Your tier is confirmed once I&apos;ve seen your reference.</div>
+                <div className="pricingNoteHead">Binder source</div>
+                <div className="pricingNoteBody">Bringing your own binder keeps the cost lower. If you need us to source one for you, the binder cost will be added on top.</div>
               </div>
             </div>
             <div className="pricingNoteItem">
               <span className="pricingNoteIcon">02</span>
               <div>
-                <div className="pricingNoteHead">Binder source</div>
-                <div className="pricingNoteBody">The price already includes a standard binder. Bring your own and take S$10–15 off, as long as it&apos;s paintable. Only a premium or special-request binder that costs more than the standard adds anything on top.</div>
+                <div className="pricingNoteHead">Art complexity</div>
+                <div className="pricingNoteBody">Everything is priced by the hours it takes. A single simple Pokémon on a flat background sits at the lower end. Backgrounds, detailed shading, multiple Pokémon, or full scenes take longer and bring the price up.</div>
               </div>
             </div>
           </div>
-          <p className="pricingNoteSub">Not sure what your idea would cost? Fill in the form and I&apos;ll give you a quote with no commitment.</p>
+          <p className="pricingNoteSub">Not sure what your idea would cost? Fill in the form and we will give you a quote with no commitment.</p>
         </div>
 
         <h3 className="addonsTitle">Add ons</h3>

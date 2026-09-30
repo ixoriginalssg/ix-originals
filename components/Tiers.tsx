@@ -11,7 +11,7 @@ const tiers = [
     num: '02',
     name: 'Trainer',
     price: 'from S$230',
-    desc: 'A background comes in, or the shading gets detailed. Usually one or two Pokémon with a rendered or scenic backdrop.',
+    desc: 'A partially rendered or basic backdrop comes in, or the shading gets detailed. Usually one or two Pokémon.',
     eg: 'e.g. Umbreon under a full moon, "Bubble" Mew',
     featured: true,
   },
@@ -19,7 +19,7 @@ const tiers = [
     num: '03',
     name: 'Champion',
     price: 'Custom quote',
-    desc: 'Multi-character scenes, full coverage, blended effects. The chase ;)',
+    desc: 'Multi-character scenes, or a single character with complex, fully rendered art. Full coverage, blended effects. The chase ;)',
     eg: 'e.g. Phantasmal Charizard Chase, Gengar commission',
     featured: false,
   },
@@ -74,6 +74,13 @@ export default function Tiers() {
             </div>
             <div className="pricingNoteItem">
               <span className="pricingNoteIcon">02</span>
+              <div>
+                <div className="pricingNoteHead">Binder size</div>
+                <div className="pricingNoteBody">A bigger binder means more surface to paint, so larger sizes take more hours and cost a little more than the smaller ones.</div>
+              </div>
+            </div>
+            <div className="pricingNoteItem">
+              <span className="pricingNoteIcon">03</span>
               <div>
                 <div className="pricingNoteHead">Art complexity</div>
                 <div className="pricingNoteBody">Everything is priced by the hours it takes. A single simple Pokémon on a flat background sits at the lower end. Backgrounds, detailed shading, multiple Pokémon, or full scenes take longer and bring the price up.</div>

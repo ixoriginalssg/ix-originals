@@ -43,7 +43,7 @@ export default function Tiers() {
             <h2 className="sectionTitle">Pick your tier</h2>
           </div>
           <p className="tiersNote">
-            All prices in SGD and include a binder. Each piece is quoted individually by complexity and hours, so these are starting points. DM with your reference for a quote.
+            All prices in SGD. Each piece is quoted individually by complexity and hours, so these are starting points. DM with your reference for a quote.
           </p>
         </div>
 

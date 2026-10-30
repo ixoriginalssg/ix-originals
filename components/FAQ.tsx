@@ -5,7 +5,7 @@ import { useState } from 'react'
 const faqs = [
   {
     q: "What binders can you actually paint on?",
-    a: "Most standard TCG binders work great. Every commission comes with a non-branded binder included in the price, or you can upgrade to a Vault X binder — I keep a few in stock. Prefer your own? Send it over and I'll check the surface takes paint before we lock anything in. Just pop your binder model in the form.",
+    a: "Most standard TCG binders work great. Every commission comes with a non-branded binder included in the price, or you can upgrade to a Vault X binder (I keep a few in stock). If you have your own, leave your binder model in the form or send a photo of it and I'll take a look :)",
   },
   {
     q: "How long does it take?",
@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     q: "Do I send my binder or do you sort one out?",
-    a: "Either works! A non-branded binder is included in your quote by default. You can upgrade to a Vault X (in stock), send your own and the price drops to match, or ask me to source a specific one — that's charged at cost plus a small sourcing fee, and it takes a little longer. I'll help you pick the best option once the form's in.",
+    a: "Either works! A non-branded binder is included in your quote by default. You can upgrade to a Vault X (in stock), send your own and the price drops to match, or ask me to source a specific one. Sourcing will be charged at cost plus a sourcing fee, and it takes a little longer. I'll help you pick the best option once the form's in.",
   },
   {
     q: "Can I ask for literally any Pokémon?",
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "How does payment work?",
-    a: "A S$30 sketch fee locks your slot and covers the concept sketch. Once you approve the sketch, you top up to 50% to start painting (the S$30 counts toward it), with the rest due once the piece is done and before I hand it over. I take PayNow and bank transfer.",
+    a: "A S$30 sketch fee secures your slot and covers the concept sketch. Once you approve the sketch, you top up to 50% to start painting (the S$30 counts toward it), with the rest due once the piece is done and before I hand it over. I take PayNow and bank transfer.",
   },
 ]
 

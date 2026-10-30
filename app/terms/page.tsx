@@ -8,7 +8,7 @@ export const metadata = {
 }
 
 const terms = [
-  { t: 'Deposit', b: 'A non-refundable deposit of 50% of the quoted price is required to secure a commission slot and must be paid before work begins. The remaining 50% is due upon completion, before the piece is shipped or handed over.' },
+  { t: 'Deposit', b: 'A non-refundable S$30 sketch fee secures a commission slot and begins the concept sketch. Once the sketch is approved, the client tops up to 50% of the quoted price (the S$30 is credited toward this) before full painting begins. The remaining 50% is due upon completion, before the piece is shipped or handed over.' },
   { t: 'Reference required', b: 'A clear reference image is required for every commission. All work is produced from the client’s reference; a commission cannot begin, or be accurately quoted, without one.' },
   { t: 'Quotes and pricing', b: 'Pricing is determined by the complexity of the artwork, not the size of the binder. A quote is provided once the reference has been reviewed. No commitment is required until the quoted price has been approved.' },
   { t: 'Scope and changes', b: 'Once a quote is approved, the agreed scope and price are fixed. Any additions or changes requested afterwards will be re-quoted before work continues; no additional work is undertaken without a revised quote.' },
@@ -16,7 +16,7 @@ const terms = [
   { t: 'Turnaround', b: 'Standard turnaround is 1–3 weeks from the date the deposit is received, depending on complexity and the current queue. Rush requests may be accommodated for an additional 20%, subject to availability.' },
   { t: 'Progress updates', b: 'Progress is shared at key milestones. To avoid delays, daily check-ins are discouraged.' },
   { t: 'Revisions', b: 'One round of revisions is included at the sketch stage, prior to painting. A second round may be accommodated where reasonable. A substantially different design requested after painting is treated as a new commission.' },
-  { t: 'Client-supplied binders', b: 'A deduction of S$10–15 applies to client-supplied binders. The binder must be a paintable surface and should be confirmed in advance; unsuitable binders may be declined.' },
+  { t: 'Binders', b: 'A non-branded binder is included in the quoted price. Selected Vault X binders are available from stock as a paid upgrade. Clients may supply their own binder (a S$10–15 deduction applies), or request a specific binder be sourced — charged at the binder’s cost plus a 15% sourcing fee (minimum S$10) and any shipping, with additional lead time. All binders must have a paintable surface, confirmed in advance; unsuitable binders may be declined.' },
   { t: 'Cancellations', b: 'Cancellation before work begins: the deposit may be refunded at the artist’s discretion. Cancellation after work has begun: the deposit is forfeited. Cancellation of a completed or near-completed piece: no refund is issued, and the artist retains the finished piece.' },
   { t: 'Portfolio use', b: 'Finished pieces may be photographed and shared on the artist’s social media and portfolio. Clients who prefer their piece not to be shared may opt out by notifying the artist in advance.' },
 ]
@@ -62,7 +62,7 @@ export default function Terms() {
             </div>
 
             <p style={{ marginTop: '3rem', fontSize: '0.8rem', color: 'var(--muted)', opacity: 0.7 }}>
-              Last updated: July 2026
+              Last updated: October 2026
             </p>
           </div>
         </section>

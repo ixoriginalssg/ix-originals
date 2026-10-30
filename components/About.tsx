@@ -20,7 +20,7 @@ export default function About() {
               <em>Your binder should be too.</em>
             </h2>
             <p className="sectionBody">
-              I hand-paint one-of-one binders for collectors who want their favourite cards kept
+              I hand paint one of one binders for collectors who want their favourite cards kept
               in something made just for them; a piece that&apos;s as personal as the collection inside.
             </p>
             <p className="sectionBody" style={{ marginTop: '1rem' }}>

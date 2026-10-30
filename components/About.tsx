@@ -16,8 +16,8 @@ export default function About() {
           <div>
             <span className="sectionLabel">What&apos;s the deal</span>
             <h2 className="sectionTitle">
-              Your collection is one of one<br />
-              <em>Your binder should be too</em>
+              Your collection is one of one.<br />
+              <em>Your binder should be too.</em>
             </h2>
             <p className="sectionBody">
               I hand-paint one-of-one binders for collectors who want their favourite cards kept
@@ -29,7 +29,7 @@ export default function About() {
 
             <div className="aboutStats fadeUp" data-delay="200">
               <div>
-                <div className="statNum statCounter" data-target="100" data-suffix="%">0%</div>
+                <div className="statNum statCounter" data-target="100" data-suffix="%">100%</div>
                 <div className="statLabel">Hand painted</div>
               </div>
               <div>

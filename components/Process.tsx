@@ -7,7 +7,7 @@ const steps = [
   {
     num: 'II',
     title: 'Lock it in',
-    desc: "I'll provide a quote ASAP. Leave a 50% deposit upfront, and only pay the rest after the work is done!",
+    desc: "I'll quote you ASAP. A S$30 sketch fee secures your slot and kicks off the concept. Once you approve it, top up to 50% to start painting — the S$30 counts toward it, and the rest is due when it's done!",
   },
   {
     num: 'III',

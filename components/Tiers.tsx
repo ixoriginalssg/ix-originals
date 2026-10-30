@@ -43,7 +43,7 @@ export default function Tiers() {
             <h2 className="sectionTitle">Pick your tier</h2>
           </div>
           <p className="tiersNote">
-            All prices in SGD. Each piece is quoted individually by complexity and hours, so these are starting points. DM with your reference for a quote.
+            All prices in SGD and include a binder. Each piece is quoted individually by complexity and hours, so these are starting points. DM with your reference for a quote.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export default function Tiers() {
               <span className="pricingNoteIcon">01</span>
               <div>
                 <div className="pricingNoteHead">Binder source</div>
-                <div className="pricingNoteBody">Bringing your own binder keeps the cost lower. If you need us to source one for you, the binder cost will be added on top.</div>
+                <div className="pricingNoteBody">A non-branded binder is included in every piece. Upgrade to a Vault X binder (in stock) for a little more, bring your own to bring the price down, or ask me to source a specific one at cost plus a small sourcing fee.</div>
               </div>
             </div>
             <div className="pricingNoteItem">

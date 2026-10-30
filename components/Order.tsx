@@ -21,7 +21,7 @@ export default function Order() {
           <a href={FORM_URL} target="_blank" rel="noopener noreferrer" className="orderBtn">
             Open the form
           </a>
-          <p className="orderNote">Slots are limited · 50% deposit to lock in</p>
+          <p className="orderNote">Slots are limited · S$30 sketch fee to lock in</p>
         </div>
       </div>
     </section>

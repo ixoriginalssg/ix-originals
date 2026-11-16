@@ -1,10 +1,10 @@
-// Replace with the link to your Artist's Choice Google Form
-const AC_FORM_URL = 'https://forms.gle/REPLACE_ME'
+// Replace with the link to your Blind Box Google Form
+const AC_FORM_URL = 'https://forms.gle/COMING_SOON'
 
 const options = [
   {
     num: '01',
-    name: 'Lite',
+    name: 'Lite Box',
     prices: [
       { size: '4 pocket', price: 'S$220' },
       { size: '9 pocket', price: 'S$320' },
@@ -14,7 +14,7 @@ const options = [
   },
   {
     num: '02',
-    name: 'Full',
+    name: 'Full Box',
     prices: [
       { size: '4 pocket', price: 'S$280' },
       { size: '9 pocket', price: 'S$420' },
@@ -26,16 +26,16 @@ const options = [
 
 export default function ArtistsChoice() {
   return (
-    <section className="tiersSection" id="artists-choice">
+    <section className="tiersSection" id="blind-box">
       <div className="container">
 
         <div className="tiersHeader fadeUp">
           <div>
-            <span className="sectionLabel">Artist&apos;s Choice</span>
-            <h2 className="sectionTitle">Leave it to me</h2>
+            <span className="sectionLabel">Blind Box</span>
+            <h2 className="sectionTitle">Open it and find out</h2>
           </div>
           <p className="tiersNote">
-            Pick a size and a level, tell me your favourite Pokémon and the mood you&apos;re after, and I&apos;ll design the rest. Fixed price, full cover, standard binder included.
+            Pick a box, tell me your FAVOURTIEE Pokémon and one word, and I&apos;ll paint the rest. You won&apos;t see it until it arrives hehe :p Fixed price, full cover, standard binder included.
           </p>
         </div>
 
@@ -60,33 +60,33 @@ export default function ArtistsChoice() {
             <div className="pricingNoteItem">
               <span className="pricingNoteIcon">01</span>
               <div>
-                <div className="pricingNoteHead">You choose</div>
-                <div className="pricingNoteBody">Binder size, Lite or Full, up to two favourite Pokémon (or leave it as a surprise), a mood, and any colours to avoid.</div>
+                <div className="pricingNoteHead">You pick</div>
+                <div className="pricingNoteBody">Binder size, Lite or Full, up to two favourite Pokémon (or leave it as a total surprise), one word for the vibe, and any colours to avoid :)</div>
               </div>
             </div>
             <div className="pricingNoteItem">
               <span className="pricingNoteIcon">02</span>
               <div>
-                <div className="pricingNoteHead">I choose</div>
-                <div className="pricingNoteBody">Everything else: composition, background, palette and style. No sketch stage, so it&apos;s quicker and lower priced than a custom piece.</div>
+                <div className="pricingNoteHead">I paint</div>
+                <div className="pricingNoteBody">Everything else is my call: composition, background, palette and style. No previews along the way, it stays a secret until it&apos;s in your hands :p</div>
               </div>
             </div>
             <div className="pricingNoteItem">
               <span className="pricingNoteIcon">03</span>
               <div>
                 <div className="pricingNoteHead">Good to know</div>
-                <div className="pricingNoteBody">Paid in full upfront. As the design is my call, there are no revisions, and changes to the artwork aren&apos;t possible once it&apos;s done.</div>
+                <div className="pricingNoteBody">Paid in full upfront. Like any blind box, what&apos;s inside is final, so the artwork can&apos;t be changed once it&apos;s done.</div>
               </div>
             </div>
           </div>
           <p className="pricingNoteSub">
-            Want a specific scene, text, or more than two Pokémon? That&apos;s a custom commission, see the tiers above.
+            Looking for something more curated to your liking? Reach out for a custom commission instead!
           </p>
         </div>
 
         <div style={{ textAlign: 'center', marginTop: '2rem' }}>
           <a href={AC_FORM_URL} target="_blank" rel="noopener noreferrer" className="btnPrimary">
-            Order Artist&apos;s Choice
+            Get a Blind Box
           </a>
         </div>
 

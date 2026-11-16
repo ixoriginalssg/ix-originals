@@ -9,7 +9,7 @@ const options = [
       { size: '4 pocket', price: 'S$220' },
       { size: '9 pocket', price: 'S$320' },
     ],
-    desc: 'One Pokémon on a soft, simple background: a gradient, a sky, a glow. Clean and quiet.',
+    desc: 'One Pokémon with a little bit of magic around it (｡· ⩊ ·｡)',
     featured: false,
   },
   {
@@ -19,7 +19,7 @@ const options = [
       { size: '4 pocket', price: 'S$280' },
       { size: '9 pocket', price: 'S$420' },
     ],
-    desc: 'Up to two Pokémon in a full scene, with an environment, effects and detail edge to edge.',
+    desc: 'Up to two Pokémon and a whole world around them (╭ರ_•́) Where they end up is my secret until you open it ╮ (. ❛ ᴗ ❛.) ╭',
     featured: true,
   },
 ]

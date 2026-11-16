@@ -10,6 +10,7 @@ import Gallery from '@/components/Gallery'
 import FAQ from '@/components/FAQ'
 import Footer from '@/components/Footer'
 import ScrollEffects from '@/components/ScrollEffects'
+import ArtistsChoice from '@/components/ArtistsChoice'
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <Process />
         <div className="holoRule" />
         <Tiers />
+        <div className="holoRule" /><ArtistsChoice />
         <div className="holoRule" />
         <Drops />
         <div className="holoRule" />
